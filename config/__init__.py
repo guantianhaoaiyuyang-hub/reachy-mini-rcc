@@ -1,0 +1,1 @@
+﻿# Reachy project configuration package.
