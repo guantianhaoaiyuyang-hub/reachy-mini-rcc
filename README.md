@@ -13,7 +13,10 @@
 [Release v3.0.0](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/releases/tag/v3.0.0) | [Source ZIP](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/archive/refs/tags/v3.0.0.zip) | [Quick Start](docs/QUICK_START.md) | [Documentation](docs/) | [Security](SECURITY.md)
 
 > This is a community-developed project for Reachy Mini. It is not an official Pollen Robotics product and does not imply affiliation with or endorsement by Pollen Robotics.
+![alt text](rcc-overview.png)
+![Reachy Mini RCC Overview](docs/assets/rcc-overview.png)
 
+*Reachy Mini RCC v3.0.0 main control interface*
 ## Quick Start
 
 Clone the repository:
