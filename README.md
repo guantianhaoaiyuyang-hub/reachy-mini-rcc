@@ -2,13 +2,45 @@
 
 **Reachy Mini Control Center - multimodal voice, motion, vision and dance control for Reachy Mini.**
 
-Current release: **v3.0.0**
+[![Release](https://img.shields.io/badge/release-v3.0.0-blue)](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/releases/tag/v3.0.0)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](pyproject.toml)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)](#development-setup)
+[![Status](https://img.shields.io/badge/status-active%20development-orange)](#project-status)
 
-Author: **Neil Guan**
+**Current release:** [v3.0.0](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/releases/tag/v3.0.0)
 
-Copyright 2026 Neil Guan
+[Release v3.0.0](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/releases/tag/v3.0.0) | [Source ZIP](https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc/archive/refs/tags/v3.0.0.zip) | [Quick Start](docs/QUICK_START.md) | [Documentation](docs/) | [Security](SECURITY.md)
 
 > This is a community-developed project for Reachy Mini. It is not an official Pollen Robotics product and does not imply affiliation with or endorsement by Pollen Robotics.
+
+## Quick Start
+
+Clone the repository:
+
+```powershell
+git clone https://github.com/guantianhaoaiyuyang-hub/reachy-mini-rcc.git
+cd reachy-mini-rcc
+```
+
+Install the project environment with `uv`:
+
+```powershell
+uv sync
+```
+
+Launch the RCC:
+
+```powershell
+python -m launcher.app
+```
+
+For detailed setup instructions, see:
+
+- [Quick Start](docs/QUICK_START.md)
+- [Networking](docs/NETWORKING.md)
+- [Doubao Setup](docs/DOUBAO_SETUP.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## Overview
 
