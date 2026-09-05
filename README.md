@@ -1,6 +1,6 @@
 # Reachy Mini RCC
 
-**Reachy Mini Control Center 鈥?multimodal voice, motion, vision and dance control for Reachy Mini.**
+**Reachy Mini Control Center - multimodal voice, motion, vision and dance control for Reachy Mini.**
 
 Current release: **v3.0.0**
 
@@ -35,8 +35,8 @@ The current module layout is intentionally preserved in v3.0.0. Some production 
 
 ```text
 RCC
-  鈫?launcher.run_mode
-  鈫?tests.reachy_voice_motion_v3_test
+  -> launcher.run_mode
+  -> tests.reachy_voice_motion_v3_test
 ```
 
 ### VISION preview
@@ -59,27 +59,27 @@ Before launching robot modes, RCC validates robot discovery, daemon connectivity
 
 ```text
 ReachyMini_RCC_v3.0.0/
-鈹溾攢 README.md
-鈹溾攢 LICENSE
-鈹溾攢 SECURITY.md
-鈹溾攢 CONTRIBUTING.md
-鈹溾攢 THIRD_PARTY_NOTICES.md
-鈹溾攢 .gitignore
-鈹溾攢 .env.example
-鈹溾攢 pyproject.toml
-鈹溾攢 uv.lock
-鈹溾攢 main.py
-鈹溾攢 config/
-鈹溾攢 core/
-鈹溾攢 doubao/
-鈹溾攢 launcher/
-鈹溾攢 robot/
-鈹溾攢 tests/
-鈹溾攢 resources/
-鈹溾攢 installer/
-鈹溾攢 models/
-鈹溾攢 music/
-鈹斺攢 docs/
+|-- README.md
+|-- LICENSE
+|-- SECURITY.md
+|-- CONTRIBUTING.md
+|-- THIRD_PARTY_NOTICES.md
+|-- .gitignore
+|-- .env.example
+|-- pyproject.toml
+|-- uv.lock
+|-- main.py
+|-- config/
+|-- core/
+|-- doubao/
+|-- launcher/
+|-- robot/
+|-- tests/
+|-- resources/
+|-- installer/
+|-- models/
+|-- music/
+`-- docs/
 ```
 
 ## Development Setup
@@ -161,7 +161,7 @@ The Apache License 2.0 applied to original project code does not automatically r
 
 ## Project Status
 
-**v3.0.0 鈥?Active Development**
+**v3.0.0 - Active Development**
 
 ## Author
 
